@@ -1070,5 +1070,9 @@ form label {
         font-size: 1rem;
         color: #f7f7f7;
     }
+    
+    .fotoContato{
+        display: none;
+    }
 }
 
