@@ -750,151 +750,6 @@ main .sobre2{
     color: #707070;
 }
 
-@keyframes animationImageButtom{
-    0%{
-        opacity: 0;
-        transform: translate3d(0, -30px, 0);
-    }
-    100%{
-        opacity: 1;
-        transform: translate3d(0, 0, 0);
-    }
-}
-
-/* Responsividade */
-
-@media (max-width: 1089px){
-    .resume_generica .experience_content, .education_content{
-        justify-self: center;
-        grid-column: 1/-1;
-    }
-
-    .resume_generica .education{
-        grid-column: 1/-1;
-        grid-row: 3;
-        justify-self: center;
-        margin: 30px 0;
-    }
-    .resume_generica .experience{
-        grid-column: 1/-1;
-        grid-row: 1;
-        justify-self: center;
-        
-    }
-
-    .cursos {
-        grid-template-columns: 1fr;
-    }
-
-    .cursos .funfacts{
-        margin-bottom: 30px;
-        text-align: center;
-        grid-template-columns: 1fr;
-        justify-self: center;
-        grid-column: 1;
-    }
-
-    .cursos .funfacts h2{
-        justify-self: center;
-    }
-
-    .cursos .my_skills h2{
-        justify-self: center;
-    }
-
-    .cursos .my_skills{
-        
-        text-align: center;
-        grid-template-columns: 1fr;
-        justify-self: center;
-        grid-column: 1/-1;
-    }
-}
-
-
-
-@media(max-width: 992px){
-
-    .section-div img {
-        display: none;
-    }
-    .section-div{
-
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    .section-div div h2{
-        color:wheat;
-    }
-    .section-div div p{
-        color:whitesmoke;
-    }
-
-    header .navegacao-primaria{
-        display: none;
-    }
-
-    header {
-        justify-content: space-between;
-        padding: 30px 70px;
-    }
-
-    header i{
-        color:#f7f7f7;
-        font-size: 3rem;
-    }
-
-    header .navegacao-primaria.ativado{
-        background: linear-gradient(rgba(43, 42, 42, 0.176), rgba(46, 46, 46, 0.724));
-        position: absolute;
-        display: grid;
-        top: 80px;
-        color: white;
-        z-index: 1;
-        padding: 30px;
-        font-size: 1.6rem;
-        font-weight: bold;
-        border-radius: 0 0 4px 4px;
-        right: 20px;
-        animation: upSection .8s ease-in-out forwards;
-    }
-
-    .sobre img{
-        grid-column: 1/-1;
-        justify-self: center;
-    }
-    .sobre_conteudo{
-        grid-column: 1/-1;
-    }
-    
-    .services{
-        margin-top: -60px;
-        padding: 0px;   
-    }
-    
-    .my_service{
-        padding: 60px;
-        color: #fff;
-    }
-
-    .my_service ul {
-        gap: 40px;
-    }
-    
-    .my_service ul li i {
-        font-size: 2.2rem;
-    }
-    
-    .my_service ul li h3{
-        
-        font-size: 1.2rem;  
-    }
-    
-    .my_service ul li p{
-        font-size: .77rem;
-    }
-}
-
 /*footer*/
 
 footer{
@@ -978,7 +833,7 @@ input:hover, textarea:hover, input:focus, textarea:focus {
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border: 1px solid;
-    color: black;
+    color: white;
 }
 
 textarea {
@@ -993,3 +848,218 @@ form label {
     color: #FFFFFF;
     font-weight: bold;
 }
+
+
+
+@keyframes animationImageButtom{
+    0%{
+        opacity: 0;
+        transform: translate3d(0, -30px, 0);
+    }
+    100%{
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+/* Responsividade */
+
+@media (max-width: 1089px){
+    .resume_generica .experience_content, .education_content{
+        justify-self: center;
+        grid-column: 1/-1;
+    }
+
+    .resume_generica .education{
+        grid-column: 1/-1;
+        grid-row: 3;
+        justify-self: center;
+        margin: 30px 0;
+    }
+    .resume_generica .experience{
+        grid-column: 1/-1;
+        grid-row: 1;
+        justify-self: center;
+        
+    }
+
+    .cursos {
+        grid-template-columns: 1fr;
+    }
+
+    .cursos .funfacts{
+        margin-bottom: 30px;
+        text-align: center;
+        grid-template-columns: 1fr;
+        justify-self: center;
+        grid-column: 1;
+    }
+
+    .cursos .funfacts h2{
+        justify-self: center;
+    }
+
+    .cursos .my_skills h2{
+        justify-self: center;
+    }
+
+    .cursos .my_skills{
+        
+        text-align: center;
+        grid-template-columns: 1fr;
+        justify-self: center;
+        grid-column: 1/-1;
+    }
+}
+
+
+
+@media(max-width: 992px){
+
+    .section-div img {
+        display: none;
+    }
+    .section-div{
+
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .section-div div h2{
+        color:white;
+    }
+    .section-div div p{
+        color:whitesmoke;
+    }
+
+    header .navegacao-primaria{
+        display: none;
+    }
+
+    header {
+        justify-content: space-between;
+        padding: 30px 70px;
+    }
+
+    header i{
+        color:#f7f7f7;
+        font-size: 3rem;
+    }
+
+    header .navegacao-primaria.ativado{
+        background: linear-gradient(rgba(43, 42, 42, 0.176), rgba(46, 46, 46, 0.724));
+        position: absolute;
+        display: grid;
+        top: 80px;
+        color: white;
+        z-index: 1;
+        padding: 30px;
+        font-size: 1.6rem;
+        font-weight: bold;
+        border-radius: 0 0 4px 4px;
+        right: 20px;
+        animation: upSection .8s ease-in-out forwards;
+    }
+
+    .sobre img{
+        grid-column: 1/-1;
+        justify-self: center;
+    }
+    .sobre_conteudo{
+        grid-column: 1/-1;
+    }
+
+    .sobre_texto p{
+        font-size:1.3rem;
+    }
+
+    .sobre_texto h1{
+        font-size: 2rem;
+    }
+
+    .sobre_info i{
+        padding-right: 5px;
+        font-size: 1.2rem;
+    }
+    
+    .sobre_info p{
+        font-size: .7rem;
+    }
+
+    
+    .services{
+        margin-top: -60px;
+        padding: 0px;   
+    }
+    
+    .my_service{
+        padding: 60px;
+        color: #fff;
+    }
+
+    .my_service ul {
+        gap: 40px;
+    }
+    
+    .my_service ul li{
+        padding: 0px;
+        max-width: 500px;
+        height: 450px;
+    }
+
+    .my_service ul li i {
+        font-size: 2.2rem;
+    }
+    
+    .my_service ul li h3{
+        
+        font-size: 1.3rem;  
+    }
+    
+    .my_service ul li p{
+        font-size: .8rem;
+    }
+
+
+    .funfacts ul li{
+        width:165px;
+        height: 100px; 
+    }
+    
+    .funfacts ul li i{
+        font-size: 1.5rem;
+    }
+    
+    .funfacts ul li span{
+        font-size: 1.3rem;
+    }
+    
+    .funfacts ul li p{
+        font-size: 1rem;
+    }
+
+    .my_skills i p{
+        font-size: 1.2rem;
+    }
+    
+    .projects_models ul li{
+        padding: 6px 6px;
+    }
+
+    input, textarea {
+        width: 300px;
+        padding: 10px;
+        color: black;
+        margin-left: 20px;
+        margin-top: 10px;
+        border-radius: 5px;
+        border-radius: 5px;
+        border: 2px solid;
+    }
+
+    .footer_sociais li i {
+        padding: 8px;
+        font-size: 1rem;
+        color: #f7f7f7;
+    }
+}
+
