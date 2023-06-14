@@ -964,6 +964,11 @@ form label {
         grid-column: 1/-1;
         justify-self: center;
     }
+    
+     .sobre2 img{
+        max-width: 280px;
+    }
+    
     .sobre_conteudo{
         grid-column: 1/-1;
     }
