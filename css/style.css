@@ -985,16 +985,19 @@ form label {
         font-size: 2rem;
     }
 
+    .sobre_info{
+        grid-template-columns: 1fr;
+    }
+
     .sobre_info i{
-        padding-right: 5px;
+        padding-right: 15px;
         font-size: 1.2rem;
     }
     
     .sobre_info p{
-        font-size: .7rem;
+        font-size: .8rem;
     }
 
-    
     .services{
         margin-top: -60px;
         padding: 0px;   
